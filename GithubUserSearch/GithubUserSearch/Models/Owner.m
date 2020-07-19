@@ -12,9 +12,6 @@
 #define λ(decl, expr) (^(decl) { return (expr); })
 
 // nil → NSNull conversion for JSON dictionaries
-static id NSNullify(id _Nullable x) {
-    return (x == nil || x == NSNull.null) ? NSNull.null : x;
-}
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -102,7 +99,7 @@ NSString *_Nullable OwnerToJSON(Owner *welcome, NSStringEncoding encoding, NSErr
     return dict ? [[Owner alloc] initWithJSONDictionary:dict] : nil;
 }
 
-- (instancetype)initWithJSONDictionary:(NSDictionary *)dict
+- (_Nullable instancetype)initWithJSONDictionary:(NSDictionary *)dict
 {
     if (self = [super init]) {
         [self setValuesForKeysWithDictionary:dict];

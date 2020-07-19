@@ -8,12 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "UserServiceProtocol.h"
+#import "GenericService.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 typedef void (^UserCompletionBlock)(NSArray<Repository *> *repositories, NSError * error);
 
-@interface UserNetworkService : NSObject<UserServiceProtocol>
+@interface UserNetworkService : GenericService<UserServiceProtocol>
 
 @property (copy, nonatomic) UserCompletionBlock userCompletionBlock;
 

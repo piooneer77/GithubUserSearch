@@ -81,7 +81,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, nullable, strong) NSNumber *archived;
 @property (nonatomic, nullable, strong) NSNumber *disabled;
 @property (nonatomic, nullable, strong) NSNumber *openIssuesCount;
-@property (nonatomic, nullable, copy)   id license;
 @property (nonatomic, nullable, strong) NSNumber *forks;
 @property (nonatomic, nullable, strong) NSNumber *openIssues;
 @property (nonatomic, nullable, strong) NSNumber *watchers;
@@ -91,6 +90,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (_Nullable instancetype)fromData:(NSData *)data error:(NSError *_Nullable *)error;
 - (NSString *_Nullable)toJSON:(NSStringEncoding)encoding error:(NSError *_Nullable *)error;
 - (NSData *_Nullable)toData:(NSError *_Nullable *)error;
+- (_Nullable instancetype)initWithJSONDictionary:(NSDictionary *)dict;
 
 @end
 

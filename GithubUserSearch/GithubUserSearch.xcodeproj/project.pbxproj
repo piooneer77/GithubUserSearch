@@ -3,46 +3,86 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19A1A70924C1C36A0082DE73 /* GithubUserSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A1A6FF24C1C36A0082DE73 /* GithubUserSearch.framework */; };
-		19A1A70E24C1C36A0082DE73 /* GithubUserSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A1A70D24C1C36A0082DE73 /* GithubUserSearchTests.m */; };
+		1914D52324C371CC00745363 /* ResponseProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1914D52124C371CC00745363 /* ResponseProtocol.h */; };
+		1914D52424C371CC00745363 /* ResponseProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1914D52224C371CC00745363 /* ResponseProtocol.m */; };
 		19A1A71024C1C36A0082DE73 /* GithubUserSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A1A70224C1C36A0082DE73 /* GithubUserSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19A1A72324C1C4400082DE73 /* Repository.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A1A71A24C1C43F0082DE73 /* Repository.h */; };
 		19A1A72424C1C4400082DE73 /* Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A1A71B24C1C43F0082DE73 /* Owner.m */; };
 		19A1A72524C1C4400082DE73 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A1A71C24C1C43F0082DE73 /* Repository.m */; };
 		19A1A72624C1C4400082DE73 /* Owner.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A1A71D24C1C43F0082DE73 /* Owner.h */; };
-		19A1A72724C1C4400082DE73 /* UserServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A1A72024C1C4400082DE73 /* UserServiceProtocol.h */; };
 		19A1A72824C1C4400082DE73 /* UserNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A1A72124C1C4400082DE73 /* UserNetworkService.m */; };
 		19A1A72924C1C4400082DE73 /* UserNetworkService.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A1A72224C1C4400082DE73 /* UserNetworkService.h */; };
+		19BE91A524C461AB00443713 /* UserServiceMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 19C0719324C3AF66007ED9ED /* UserServiceMock.json */; };
+		19C071EA24C3BD9A007ED9ED /* GithubUserSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C071E824C3BD9A007ED9ED /* GithubUserSearchTests.m */; };
+		19C071EB24C3BD9A007ED9ED /* GithubUserSearchTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19C071E924C3BD9A007ED9ED /* GithubUserSearchTests-Info.plist */; };
+		19E515FA24C3C75400F591CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E515F924C3C75400F591CD /* AppDelegate.m */; };
+		19E515FD24C3C75400F591CD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E515FC24C3C75400F591CD /* SceneDelegate.m */; };
+		19E5160524C3C75600F591CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E5160424C3C75600F591CD /* Assets.xcassets */; };
+		19E5160824C3C75600F591CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E5160624C3C75600F591CD /* LaunchScreen.storyboard */; };
+		19E5160B24C3C75600F591CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E5160A24C3C75600F591CD /* main.m */; };
+		19E5161324C3C80A00F591CD /* APICallMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E5161224C3C80A00F591CD /* APICallMock.m */; };
+		19E5161B24C3F1B600F591CD /* MockUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E5161A24C3F1B600F591CD /* MockUserService.m */; };
+		19E6735124C465C300AAC863 /* GithubUserSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A1A6FF24C1C36A0082DE73 /* GithubUserSearch.framework */; };
+		19FDDF3524C3476500961980 /* GenericService.h in Headers */ = {isa = PBXBuildFile; fileRef = 19FDDF3324C3476500961980 /* GenericService.h */; };
+		19FDDF3624C3476500961980 /* GenericService.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FDDF3424C3476500961980 /* GenericService.m */; };
+		5A2055D6A2A46554EE47C2A7 /* Pods_GithubUserSearch_GithubUserSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC6825B179B36E3BABBA993 /* Pods_GithubUserSearch_GithubUserSearchTests.framework */; };
+		AE4CDAC4A8177E0F475C3680 /* Pods_GithubUserSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685A575CC9566F0CDA327682 /* Pods_GithubUserSearch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		19A1A70A24C1C36A0082DE73 /* PBXContainerItemProxy */ = {
+		19E5160F24C3C7CC00F591CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 19A1A6F624C1C3690082DE73 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 19A1A6FE24C1C3690082DE73;
-			remoteInfo = GithubUserSearch;
+			remoteGlobalIDString = 19E515F524C3C75400F591CD;
+			remoteInfo = MockHostApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1914D52124C371CC00745363 /* ResponseProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseProtocol.h; sourceTree = "<group>"; };
+		1914D52224C371CC00745363 /* ResponseProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseProtocol.m; sourceTree = "<group>"; };
 		19A1A6FF24C1C36A0082DE73 /* GithubUserSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GithubUserSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A1A70224C1C36A0082DE73 /* GithubUserSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GithubUserSearch.h; sourceTree = "<group>"; };
 		19A1A70324C1C36A0082DE73 /* GithubUserSearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GithubUserSearch-Info.plist"; sourceTree = "<group>"; };
-		19A1A70824C1C36A0082DE73 /* GithubUserSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubUserSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		19A1A70D24C1C36A0082DE73 /* GithubUserSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubUserSearchTests.m; sourceTree = "<group>"; };
-		19A1A70F24C1C36A0082DE73 /* GithubUserSearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GithubUserSearchTests-Info.plist"; sourceTree = "<group>"; };
 		19A1A71A24C1C43F0082DE73 /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
 		19A1A71B24C1C43F0082DE73 /* Owner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Owner.m; sourceTree = "<group>"; };
 		19A1A71C24C1C43F0082DE73 /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
 		19A1A71D24C1C43F0082DE73 /* Owner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Owner.h; sourceTree = "<group>"; };
-		19A1A72024C1C4400082DE73 /* UserServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserServiceProtocol.h; sourceTree = "<group>"; };
 		19A1A72124C1C4400082DE73 /* UserNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserNetworkService.m; sourceTree = "<group>"; };
 		19A1A72224C1C4400082DE73 /* UserNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserNetworkService.h; sourceTree = "<group>"; };
+		19A1A72A24C1DC830082DE73 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A1A72C24C1E7F90082DE73 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C0719324C3AF66007ED9ED /* UserServiceMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserServiceMock.json; sourceTree = "<group>"; };
+		19C071DC24C3BD21007ED9ED /* GithubUserSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubUserSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C071E824C3BD9A007ED9ED /* GithubUserSearchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GithubUserSearchTests.m; sourceTree = "<group>"; };
+		19C071E924C3BD9A007ED9ED /* GithubUserSearchTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GithubUserSearchTests-Info.plist"; sourceTree = "<group>"; };
+		19E515F624C3C75400F591CD /* MockHostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockHostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E515F824C3C75400F591CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19E515F924C3C75400F591CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19E515FB24C3C75400F591CD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		19E515FC24C3C75400F591CD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		19E5160424C3C75600F591CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19E5160724C3C75600F591CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19E5160924C3C75600F591CD /* MockHostApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MockHostApp-Info.plist"; sourceTree = "<group>"; };
+		19E5160A24C3C75600F591CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19E5161124C3C80A00F591CD /* APICallMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APICallMock.h; sourceTree = "<group>"; };
+		19E5161224C3C80A00F591CD /* APICallMock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APICallMock.m; sourceTree = "<group>"; };
+		19E5161724C3EEC500F591CD /* UserServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserServiceProtocol.h; sourceTree = "<group>"; };
+		19E5161924C3F1B600F591CD /* MockUserService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockUserService.h; sourceTree = "<group>"; };
+		19E5161A24C3F1B600F591CD /* MockUserService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockUserService.m; sourceTree = "<group>"; };
+		19E6735324C4676100AAC863 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19FDDF3324C3476500961980 /* GenericService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericService.h; sourceTree = "<group>"; };
+		19FDDF3424C3476500961980 /* GenericService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenericService.m; sourceTree = "<group>"; };
+		685A575CC9566F0CDA327682 /* Pods_GithubUserSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubUserSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD17DEB25B25FC7168F059C /* Pods-GithubUserSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubUserSearch.debug.xcconfig"; path = "Target Support Files/Pods-GithubUserSearch/Pods-GithubUserSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		7DA1EC0FE970DFADCA8F4EBA /* Pods-GithubUserSearch-GithubUserSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubUserSearch-GithubUserSearchTests.debug.xcconfig"; path = "Target Support Files/Pods-GithubUserSearch-GithubUserSearchTests/Pods-GithubUserSearch-GithubUserSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95AE26AB8F43A14F88DB2D6E /* Pods-GithubUserSearch-GithubUserSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubUserSearch-GithubUserSearchTests.release.xcconfig"; path = "Target Support Files/Pods-GithubUserSearch-GithubUserSearchTests/Pods-GithubUserSearch-GithubUserSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6AB87E01501E69FA7D5E2A8 /* Pods-GithubUserSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubUserSearch.release.xcconfig"; path = "Target Support Files/Pods-GithubUserSearch/Pods-GithubUserSearch.release.xcconfig"; sourceTree = "<group>"; };
+		DAC6825B179B36E3BABBA993 /* Pods_GithubUserSearch_GithubUserSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubUserSearch_GithubUserSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,14 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE4CDAC4A8177E0F475C3680 /* Pods_GithubUserSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		19A1A70524C1C36A0082DE73 /* Frameworks */ = {
+		19C071D924C3BD21007ED9ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19A1A70924C1C36A0082DE73 /* GithubUserSearch.framework in Frameworks */,
+				5A2055D6A2A46554EE47C2A7 /* Pods_GithubUserSearch_GithubUserSearchTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E515F324C3C75400F591CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E6735124C465C300AAC863 /* GithubUserSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,9 +116,12 @@
 		19A1A6F524C1C3690082DE73 = {
 			isa = PBXGroup;
 			children = (
+				19C071E724C3BD9A007ED9ED /* GithubUserSearchTests */,
 				19A1A70124C1C36A0082DE73 /* GithubUserSearch */,
-				19A1A70C24C1C36A0082DE73 /* GithubUserSearchTests */,
+				19E515F724C3C75400F591CD /* MockHostApp */,
 				19A1A70024C1C36A0082DE73 /* Products */,
+				66D8C0547C55FB51CF7C3DEA /* Pods */,
+				78F34A96DB7EF06046B1F097 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,7 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				19A1A6FF24C1C36A0082DE73 /* GithubUserSearch.framework */,
-				19A1A70824C1C36A0082DE73 /* GithubUserSearchTests.xctest */,
+				19C071DC24C3BD21007ED9ED /* GithubUserSearchTests.xctest */,
+				19E515F624C3C75400F591CD /* MockHostApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,15 +144,6 @@
 				19A1A70324C1C36A0082DE73 /* GithubUserSearch-Info.plist */,
 			);
 			path = GithubUserSearch;
-			sourceTree = "<group>";
-		};
-		19A1A70C24C1C36A0082DE73 /* GithubUserSearchTests */ = {
-			isa = PBXGroup;
-			children = (
-				19A1A70D24C1C36A0082DE73 /* GithubUserSearchTests.m */,
-				19A1A70F24C1C36A0082DE73 /* GithubUserSearchTests-Info.plist */,
-			);
-			path = GithubUserSearchTests;
 			sourceTree = "<group>";
 		};
 		19A1A71924C1C43F0082DE73 /* Models */ = {
@@ -117,6 +161,10 @@
 			isa = PBXGroup;
 			children = (
 				19A1A71F24C1C4400082DE73 /* UserService */,
+				19FDDF3324C3476500961980 /* GenericService.h */,
+				19FDDF3424C3476500961980 /* GenericService.m */,
+				1914D52124C371CC00745363 /* ResponseProtocol.h */,
+				1914D52224C371CC00745363 /* ResponseProtocol.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -124,11 +172,71 @@
 		19A1A71F24C1C4400082DE73 /* UserService */ = {
 			isa = PBXGroup;
 			children = (
-				19A1A72024C1C4400082DE73 /* UserServiceProtocol.h */,
 				19A1A72124C1C4400082DE73 /* UserNetworkService.m */,
 				19A1A72224C1C4400082DE73 /* UserNetworkService.h */,
+				19E5161724C3EEC500F591CD /* UserServiceProtocol.h */,
 			);
 			path = UserService;
+			sourceTree = "<group>";
+		};
+		19C071E724C3BD9A007ED9ED /* GithubUserSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				19C071E824C3BD9A007ED9ED /* GithubUserSearchTests.m */,
+				19C071E924C3BD9A007ED9ED /* GithubUserSearchTests-Info.plist */,
+			);
+			path = GithubUserSearchTests;
+			sourceTree = "<group>";
+		};
+		19E515F724C3C75400F591CD /* MockHostApp */ = {
+			isa = PBXGroup;
+			children = (
+				19E5161824C3F19000F591CD /* Services */,
+				19E515F824C3C75400F591CD /* AppDelegate.h */,
+				19E515F924C3C75400F591CD /* AppDelegate.m */,
+				19E515FB24C3C75400F591CD /* SceneDelegate.h */,
+				19E515FC24C3C75400F591CD /* SceneDelegate.m */,
+				19E5160424C3C75600F591CD /* Assets.xcassets */,
+				19E5160624C3C75600F591CD /* LaunchScreen.storyboard */,
+				19E5160924C3C75600F591CD /* MockHostApp-Info.plist */,
+				19E5160A24C3C75600F591CD /* main.m */,
+				19E5161124C3C80A00F591CD /* APICallMock.h */,
+				19E5161224C3C80A00F591CD /* APICallMock.m */,
+			);
+			path = MockHostApp;
+			sourceTree = "<group>";
+		};
+		19E5161824C3F19000F591CD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				19C0719324C3AF66007ED9ED /* UserServiceMock.json */,
+				19E5161924C3F1B600F591CD /* MockUserService.h */,
+				19E5161A24C3F1B600F591CD /* MockUserService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		66D8C0547C55FB51CF7C3DEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AD17DEB25B25FC7168F059C /* Pods-GithubUserSearch.debug.xcconfig */,
+				C6AB87E01501E69FA7D5E2A8 /* Pods-GithubUserSearch.release.xcconfig */,
+				7DA1EC0FE970DFADCA8F4EBA /* Pods-GithubUserSearch-GithubUserSearchTests.debug.xcconfig */,
+				95AE26AB8F43A14F88DB2D6E /* Pods-GithubUserSearch-GithubUserSearchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		78F34A96DB7EF06046B1F097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19E6735324C4676100AAC863 /* AFNetworking.framework */,
+				19A1A72C24C1E7F90082DE73 /* AFNetworking.framework */,
+				19A1A72A24C1DC830082DE73 /* AFNetworking.framework */,
+				685A575CC9566F0CDA327682 /* Pods_GithubUserSearch.framework */,
+				DAC6825B179B36E3BABBA993 /* Pods_GithubUserSearch_GithubUserSearchTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +248,8 @@
 			files = (
 				19A1A72924C1C4400082DE73 /* UserNetworkService.h in Headers */,
 				19A1A72624C1C4400082DE73 /* Owner.h in Headers */,
-				19A1A72724C1C4400082DE73 /* UserServiceProtocol.h in Headers */,
-				19A1A72324C1C4400082DE73 /* Repository.h in Headers */,
+				19FDDF3524C3476500961980 /* GenericService.h in Headers */,
+				1914D52324C371CC00745363 /* ResponseProtocol.h in Headers */,
 				19A1A71024C1C36A0082DE73 /* GithubUserSearch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19A1A71324C1C36A0082DE73 /* Build configuration list for PBXNativeTarget "GithubUserSearch" */;
 			buildPhases = (
+				87F9CE5DE98B5C9F7EBBB349 /* [CP] Check Pods Manifest.lock */,
 				19A1A6FA24C1C3690082DE73 /* Headers */,
 				19A1A6FB24C1C3690082DE73 /* Sources */,
 				19A1A6FC24C1C3690082DE73 /* Frameworks */,
@@ -167,23 +276,42 @@
 			productReference = 19A1A6FF24C1C36A0082DE73 /* GithubUserSearch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		19A1A70724C1C36A0082DE73 /* GithubUserSearchTests */ = {
+		19C071DB24C3BD21007ED9ED /* GithubUserSearchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19A1A71624C1C36A0082DE73 /* Build configuration list for PBXNativeTarget "GithubUserSearchTests" */;
+			buildConfigurationList = 19C071E324C3BD21007ED9ED /* Build configuration list for PBXNativeTarget "GithubUserSearchTests" */;
 			buildPhases = (
-				19A1A70424C1C36A0082DE73 /* Sources */,
-				19A1A70524C1C36A0082DE73 /* Frameworks */,
-				19A1A70624C1C36A0082DE73 /* Resources */,
+				5260C11BD05A3B9030AF87A0 /* [CP] Check Pods Manifest.lock */,
+				19C071D824C3BD21007ED9ED /* Sources */,
+				19C071D924C3BD21007ED9ED /* Frameworks */,
+				19C071DA24C3BD21007ED9ED /* Resources */,
+				E4467378314BC9E1EBAFB4B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				19A1A70B24C1C36A0082DE73 /* PBXTargetDependency */,
+				19E5161024C3C7CC00F591CD /* PBXTargetDependency */,
 			);
 			name = GithubUserSearchTests;
 			productName = GithubUserSearchTests;
-			productReference = 19A1A70824C1C36A0082DE73 /* GithubUserSearchTests.xctest */;
+			productReference = 19C071DC24C3BD21007ED9ED /* GithubUserSearchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19E515F524C3C75400F591CD /* MockHostApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E5160C24C3C75600F591CD /* Build configuration list for PBXNativeTarget "MockHostApp" */;
+			buildPhases = (
+				19E515F224C3C75400F591CD /* Sources */,
+				19E515F324C3C75400F591CD /* Frameworks */,
+				19E515F424C3C75400F591CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockHostApp;
+			productName = MockHostApp;
+			productReference = 19E515F624C3C75400F591CD /* MockHostApp.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -191,13 +319,19 @@
 		19A1A6F624C1C3690082DE73 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Karem Gohar";
 				TargetAttributes = {
 					19A1A6FE24C1C3690082DE73 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
-					19A1A70724C1C36A0082DE73 = {
+					19C071DB24C3BD21007ED9ED = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 19E515F524C3C75400F591CD;
+					};
+					19E515F524C3C75400F591CD = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -216,7 +350,8 @@
 			projectRoot = "";
 			targets = (
 				19A1A6FE24C1C3690082DE73 /* GithubUserSearch */,
-				19A1A70724C1C36A0082DE73 /* GithubUserSearchTests */,
+				19C071DB24C3BD21007ED9ED /* GithubUserSearchTests */,
+				19E515F524C3C75400F591CD /* MockHostApp */,
 			);
 		};
 /* End PBXProject section */
@@ -229,43 +364,143 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		19A1A70624C1C36A0082DE73 /* Resources */ = {
+		19C071DA24C3BD21007ED9ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19C071EB24C3BD9A007ED9ED /* GithubUserSearchTests-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E515F424C3C75400F591CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E5160824C3C75600F591CD /* LaunchScreen.storyboard in Resources */,
+				19BE91A524C461AB00443713 /* UserServiceMock.json in Resources */,
+				19E5160524C3C75600F591CD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5260C11BD05A3B9030AF87A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GithubUserSearch-GithubUserSearchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87F9CE5DE98B5C9F7EBBB349 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GithubUserSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4467378314BC9E1EBAFB4B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GithubUserSearch-GithubUserSearchTests/Pods-GithubUserSearch-GithubUserSearchTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GithubUserSearch-GithubUserSearchTests/Pods-GithubUserSearch-GithubUserSearchTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GithubUserSearch-GithubUserSearchTests/Pods-GithubUserSearch-GithubUserSearchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		19A1A6FB24C1C3690082DE73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1914D52424C371CC00745363 /* ResponseProtocol.m in Sources */,
 				19A1A72424C1C4400082DE73 /* Owner.m in Sources */,
+				19FDDF3624C3476500961980 /* GenericService.m in Sources */,
 				19A1A72524C1C4400082DE73 /* Repository.m in Sources */,
 				19A1A72824C1C4400082DE73 /* UserNetworkService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		19A1A70424C1C36A0082DE73 /* Sources */ = {
+		19C071D824C3BD21007ED9ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19A1A70E24C1C36A0082DE73 /* GithubUserSearchTests.m in Sources */,
+				19C071EA24C3BD9A007ED9ED /* GithubUserSearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E515F224C3C75400F591CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E5161324C3C80A00F591CD /* APICallMock.m in Sources */,
+				19E515FA24C3C75400F591CD /* AppDelegate.m in Sources */,
+				19E5160B24C3C75600F591CD /* main.m in Sources */,
+				19E5161B24C3F1B600F591CD /* MockUserService.m in Sources */,
+				19E515FD24C3C75400F591CD /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		19A1A70B24C1C36A0082DE73 /* PBXTargetDependency */ = {
+		19E5161024C3C7CC00F591CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 19A1A6FE24C1C3690082DE73 /* GithubUserSearch */;
-			targetProxy = 19A1A70A24C1C36A0082DE73 /* PBXContainerItemProxy */;
+			target = 19E515F524C3C75400F591CD /* MockHostApp */;
+			targetProxy = 19E5160F24C3C7CC00F591CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19E5160624C3C75600F591CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19E5160724C3C75600F591CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		19A1A71124C1C36A0082DE73 /* Debug */ = {
@@ -386,6 +621,7 @@
 		};
 		19A1A71424C1C36A0082DE73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD17DEB25B25FC7168F059C /* Pods-GithubUserSearch.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -404,11 +640,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64e armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		19A1A71524C1C36A0082DE73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6AB87E01501E69FA7D5E2A8 /* Pods-GithubUserSearch.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -427,15 +665,19 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64e armv7 armv7s arm64";
 			};
 			name = Release;
 		};
-		19A1A71724C1C36A0082DE73 /* Debug */ = {
+		19C071E424C3BD21007ED9ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA1EC0FE970DFADCA8F4EBA /* Pods-GithubUserSearch-GithubUserSearchTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8NCTK3T989;
 				INFOPLIST_FILE = "GithubUserSearchTests/GithubUserSearchTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,15 +686,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.syntaxerror.GithubUserSearchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockHostApp.app/MockHostApp";
 			};
 			name = Debug;
 		};
-		19A1A71824C1C36A0082DE73 /* Release */ = {
+		19C071E524C3BD21007ED9ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95AE26AB8F43A14F88DB2D6E /* Pods-GithubUserSearch-GithubUserSearchTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8NCTK3T989;
 				INFOPLIST_FILE = "GithubUserSearchTests/GithubUserSearchTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,6 +707,45 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.syntaxerror.GithubUserSearchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockHostApp.app/MockHostApp";
+			};
+			name = Release;
+		};
+		19E5160D24C3C75600F591CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NCTK3T989;
+				INFOPLIST_FILE = "MockHostApp/MockHostApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.syntaxerror.MockHostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64e armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		19E5160E24C3C75600F591CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NCTK3T989;
+				INFOPLIST_FILE = "MockHostApp/MockHostApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.syntaxerror.MockHostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64e armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -485,11 +770,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		19A1A71624C1C36A0082DE73 /* Build configuration list for PBXNativeTarget "GithubUserSearchTests" */ = {
+		19C071E324C3BD21007ED9ED /* Build configuration list for PBXNativeTarget "GithubUserSearchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				19A1A71724C1C36A0082DE73 /* Debug */,
-				19A1A71824C1C36A0082DE73 /* Release */,
+				19C071E424C3BD21007ED9ED /* Debug */,
+				19C071E524C3BD21007ED9ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E5160C24C3C75600F591CD /* Build configuration list for PBXNativeTarget "MockHostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E5160D24C3C75600F591CD /* Debug */,
+				19E5160E24C3C75600F591CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
